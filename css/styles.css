@@ -10,6 +10,7 @@ body {
 
 .contenedor {
     display: flex;
+    flex-warp: wrap;
 }
 
 /* Secciones */
