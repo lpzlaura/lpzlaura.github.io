@@ -1,0 +1,68 @@
+ /* General */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.contenedor {
+    display: flex;
+}
+
+/* Secciones */
+
+ul li {
+    list-style: none;
+    margin: 0.25rem;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.seccion-info {
+    margin: 1rem;
+}
+
+/* Sección Izquierda */
+
+.seccion-izquierda {
+    background-color: beige;
+    padding: 2rem;
+    width: 40%;
+}
+
+.foto-cv {
+    width: 50%;
+    margin: 1rem;
+    border-radius: 0.25rem;
+}
+
+/* Sección Derecha */
+
+.seccion-derecha {
+    padding: 2rem;
+    width: 100%;
+}
+
+.button {
+    padding: 1rem;
+    border-style: none;
+    border-radius: 0.25rem;
+    margin: 1rem;
+}
+
+/* Sección Certificados */
+
+.seccion-certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-certificados {
+    width: 40%;
+}
